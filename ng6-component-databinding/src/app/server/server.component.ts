@@ -4,7 +4,7 @@ import { Component, OnInit, Input, ViewEncapsulation } from '@angular/core';
   selector: 'app-server',
   templateUrl: './server.component.html',
   styleUrls: ['./server.component.css'],
-  encapsulation: ViewEncapsulation.None
+  encapsulation: ViewEncapsulation.Emulated
 })
 export class ServerComponent implements OnInit {
   @Input('svrElement') element:{type:string, name:string, content:string};
