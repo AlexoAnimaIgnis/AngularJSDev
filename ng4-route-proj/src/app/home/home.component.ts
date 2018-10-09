@@ -14,7 +14,7 @@ export class HomeComponent implements OnInit {
   }
 
   onLoadServers(){
-    this.router.navigate(['servers']); // argument is array
+    this.router.navigate(['/servers']); // argument is array
   }
 
 }
