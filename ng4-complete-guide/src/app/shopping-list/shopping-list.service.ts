@@ -2,7 +2,6 @@ import { Ingredient } from "../shared/ingredients.model";
 import { EventEmitter } from "@angular/core";
 
 export class ShoppingListService {
-    newIngredient = new EventEmitter<Ingredient>();
     ingredientsChanged = new EventEmitter<Ingredient[]>();
 
     private ingredients : Ingredient[] = [
