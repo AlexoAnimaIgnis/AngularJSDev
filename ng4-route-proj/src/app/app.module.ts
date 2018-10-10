@@ -18,6 +18,7 @@ const appRoutes: Routes = [
   {path: 'users', component: UsersComponent},
   {path: 'users/:id/:name', component: UserComponent}, // dynamic binding for id values
   {path: 'servers', component: ServersComponent},
+  {path: 'servers/:id/edit', component: EditServerComponent},
 ];
 
 @NgModule({
